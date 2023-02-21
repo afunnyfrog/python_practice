@@ -1,0 +1,21 @@
+if判斷式寫法：
+if 布林值:
+    若布林值為True則執行命令
+
+if else 寫法：
+if 布林值:
+    若布林值為True則執行命令
+else:
+    若布林值為False則執行命令
+
+if elif else寫法：
+if 布林值一:
+    若布林值一為True則執行命令
+elif布林值二:
+    若布林值二為True則執行命令
+else:
+    若布林值一和二皆為False則執行命令
+
+！！python中並未導入switch語法，因為很容易與if else重疊
+
+input時所輸入的資料型態皆為字串，時常需要轉換資料型態
