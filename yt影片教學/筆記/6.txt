@@ -1,0 +1,18 @@
+迴圈功能：要使一段程式不斷的執行
+
+var=變數
+
+while迴圈語法--
+while boll:
+    若boll為True，便執行命令，執行完命令便再做一次迴圈判斷
+
+for迴圈語法--
+for var in 列表或字串:
+    將列表中的項目或字串中的字元逐一取出並處理
+*for 迴圈的好幫手 range()
+for var in range(): => for var in [0,1,2]
+
+range()中的數字可調整範圍，而且含頭不含尾，例如：
+for i in range(2,4):
+    print(i)
+便會得到：2,3
